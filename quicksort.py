@@ -1,4 +1,4 @@
-from turtle import right
+# from turtle import right
 
 
 
@@ -17,7 +17,7 @@ def QuickSort(alist):
     else:
         return alist
 
-print(QuickSort([5,83,67,9,20]))
+print(QuickSort([5,83,67,9,20,20,20,20,20]))
 
 
 

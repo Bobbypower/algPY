@@ -25,9 +25,9 @@ class HuffmanTree():
 
     def RecursiveTrace01(self, tree, length):
         node = tree
-        if (not node):
+        if not node:
             return
-        elif node.name:
+        elif node.name:#碰到叶节点 才会
             print(node.name + "编码为", end=""),
             # print(length)
             for i in range(length):
@@ -41,6 +41,7 @@ class HuffmanTree():
 
     def getHuffCode(self):
         self.RecursiveTrace01(self.root, 0)
+    
 
 
 NVTest = [('a', 6), ('b', 4), ('c', 10), ('d', 8), ('f', 12), ('g', 2)]

@@ -1,9 +1,9 @@
-class Node():
-    def __init__(self,name=None,value=None) -> None:
-        self.name=name
-        self.value=value
-        self.rchild=None
-        self.lchild=None
+# class Node():
+#     def __init__(self,name=None,value=None) -> None:
+#         self.name=name
+#         self.value=value
+#         self.rchild=None
+#         self.lchild=None
 
 # class DFS():
 #     def init(self):
@@ -37,6 +37,6 @@ def DFS(G,v):
     return None
 
 
-b=DFSTravres([[0,1,1],[1,0,1],[1,1,0]])
+b=DFSTravres([[0,1,inf,inf],[inf,0,inf,inf],[inf,inf,0,inf],[inf,inf,inf,0]])
   
     
